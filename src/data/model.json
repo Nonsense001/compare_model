@@ -1,0 +1,8 @@
+[
+    {
+        "id": "m0",
+        "name": "Gemini demo",
+        "output": "./outputs/m0/",
+        "description": "Gemini demo"
+    }
+]
