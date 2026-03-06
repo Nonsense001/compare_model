@@ -9,9 +9,13 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "highlight.js": "^11.11.1",
+        "marked": "^17.0.3",
+        "marked-highlight": "^2.2.3",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
-        "react-resizable-panels": "^2.1.7"
+        "react-resizable-panels": "^2.1.7",
+        "react-syntax-highlighter": "^16.1.1"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",

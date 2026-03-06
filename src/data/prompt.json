@@ -5,5 +5,12 @@
         "prompt": "./prompts/p0.txt",
         "extension": "txt",
         "expected": "./expected/p0.txt"
+    },
+    {
+        "id": "p1",
+        "title": "ブロックチェーンを説明",
+        "prompt": "./prompts/p1.txt",
+        "extension": "md",
+        "expected": "./expected/p1.txt"
     }
 ]

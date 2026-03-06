@@ -4,5 +4,17 @@
         "name": "Gemini demo",
         "output": "./outputs/m0/",
         "description": "Gemini demo"
+    },
+    {
+        "id": "gemini_3_pro",
+        "name": "Gemini 3 Pro",
+        "output": "./outputs/gemini_3_pro/",
+        "description": "Gemini 3 Pro"
+    },
+    {
+        "id": "gpt_5_2",
+        "name": "GPT-5.2",
+        "output": "./outputs/gpt_5_2/",
+        "description": "GPT-5.2"
     }
 ]

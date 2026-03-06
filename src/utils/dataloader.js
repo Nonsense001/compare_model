@@ -6,8 +6,8 @@
  * パスベースでコンテンツを取得する関数を提供します。
  */
 
-// src/data 以下の全 .txt, .html ファイルを raw テキストとして読み込み
-const rawFiles = import.meta.glob('../data/**/*.{txt,html}', {
+// src/data 以下の全 .txt, .html, .md, .lang ファイルを raw テキストとして読み込み
+const rawFiles = import.meta.glob('../data/**/*.{txt,html,md,lang}', {
     query: '?raw',
     eager: true,
 })
