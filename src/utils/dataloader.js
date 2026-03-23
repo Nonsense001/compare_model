@@ -9,6 +9,7 @@
 // src/data 以下の全 .txt, .html, .md, .lang ファイルを raw テキストとして読み込み
 const rawFiles = import.meta.glob('../data/**/*.{txt,html,md,lang}', {
     query: '?raw',
+    import: 'default',
     eager: true,
 })
 
@@ -30,9 +31,10 @@ export function loadContent(relativePath) {
     const key = normalizePath(relativePath)
 
     // import.meta.glob のキーと照合
-    for (const [filePath, module] of Object.entries(rawFiles)) {
+    for (const [filePath, content] of Object.entries(rawFiles)) {
         if (filePath.endsWith(key.replace('../data/', '')) || filePath === key) {
-            return module.default || module
+            // content は import: 'default' により既に文字列
+            return content !== undefined ? content : null
         }
     }
     return null

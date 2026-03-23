@@ -1,9 +1,33 @@
 [
     {
-        "id": "m0",
-        "name": "Gemini demo",
-        "output": "./outputs/m0/",
-        "description": "Gemini demo"
+        "id": "GLM_4.7",
+        "name": "GLM-4.7",
+        "output": "./outputs/GLM_4.7/",
+        "description": "GLM-4.7"
+    },
+    {
+        "id": "kimi_k2.5",
+        "name": "Kimi K2.5",
+        "output": "./outputs/kimi_k2.5/",
+        "description": "Kimi K2.5"
+    },
+    {
+        "id": "Grok 4.20",
+        "name": "Grok 4.20",
+        "output": "./outputs/Grok 4.20/",
+        "description": "Grok 4.20"
+    },
+    {
+        "id": "composer_1.5",
+        "name": "Composer 1.5",
+        "output": "./outputs/composer_1.5/",
+        "description": "Composer 1.5"
+    },
+    {
+        "id": "composer_2_fast",
+        "name": "Composer 2 fast",
+        "output": "./outputs/composer_2_fast/",
+        "description": "Composer 2 fast"
     },
     {
         "id": "gemini_3_pro",
@@ -12,9 +36,51 @@
         "description": "Gemini 3 Pro"
     },
     {
+        "id": "gpt_5.3_codex",
+        "name": "GPT-5.3 Codex",
+        "output": "./outputs/gpt_5.3_codex/",
+        "description": "GPT-5.3 Codex"
+    },
+    {
+        "id": "gpt_5.4",
+        "name": "GPT-5.4",
+        "output": "./outputs/gpt_5.4/",
+        "description": "GPT-5.4"
+    },
+    {
+        "id": "gpt_5.4_exhighfast",
+        "name": "GPT-5.4 Extra High Fast",
+        "output": "./outputs/gpt_5.4_exhighfast/",
+        "description": "GPT-5.4 Extra High Fast"
+    },
+    {
+        "id": "gpt_5.4_fast",
+        "name": "GPT-5.4 Fast",
+        "output": "./outputs/gpt_5.4_fast/",
+        "description": "GPT-5.4 Fast"
+    },
+    {
         "id": "gpt_5_2",
         "name": "GPT-5.2",
         "output": "./outputs/gpt_5_2/",
         "description": "GPT-5.2"
+    },
+    {
+        "id": "haiku_4.5",
+        "name": "Haiku 4.5",
+        "output": "./outputs/haiku_4.5/",
+        "description": "Haiku 4.5"
+    },
+    {
+        "id": "opus_4.6",
+        "name": "Opus 4.6",
+        "output": "./outputs/opus_4.6/",
+        "description": "Opus 4.6"
+    },
+    {
+        "id": "sonnet_4.6",
+        "name": "Sonnet 4.6",
+        "output": "./outputs/sonnet_4.6/",
+        "description": "Sonnet 4.6"
     }
 ]

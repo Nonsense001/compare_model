@@ -1,16 +1,324 @@
 [
     {
-        "id": "p0",
-        "title": "自己紹介",
-        "prompt": "./prompts/p0.txt",
-        "extension": "txt",
-        "expected": "./expected/p0.txt"
-    },
-    {
         "id": "p1",
-        "title": "ブロックチェーンを説明",
+        "title": "クラウドとオンプレミスの違い",
         "prompt": "./prompts/p1.txt",
         "extension": "md",
         "expected": "./expected/p1.txt"
+    },
+    {
+        "id": "p2",
+        "title": "API通信を料理に例えて説明",
+        "prompt": "./prompts/p2.txt",
+        "extension": "md",
+        "expected": "./expected/p2.txt"
+    },
+    {
+        "id": "p3",
+        "title": "スタートアップ失敗原因のツリー構造",
+        "prompt": "./prompts/p3.txt",
+        "extension": "md",
+        "expected": "./expected/p3.txt"
+    },
+    {
+        "id": "p4",
+        "title": "努力は必ず報われるか",
+        "prompt": "./prompts/p4.txt",
+        "extension": "md",
+        "expected": "./expected/p4.txt"
+    },
+    {
+        "id": "p5",
+        "title": "少子高齢化と経済の因果関係",
+        "prompt": "./prompts/p5.txt",
+        "extension": "md",
+        "expected": "./expected/p5.txt"
+    },
+    {
+        "id": "p6",
+        "title": "WHO AI倫理文書の解説",
+        "prompt": "./prompts/p6.txt",
+        "extension": "md",
+        "expected": "./expected/p6.txt"
+    },
+    {
+        "id": "p7",
+        "title": "平成32年5月の出来事",
+        "prompt": "./prompts/p7.txt",
+        "extension": "md",
+        "expected": "./expected/p7.txt"
+    },
+    {
+        "id": "p8",
+        "title": "割合計算（B支持者数）",
+        "prompt": "./prompts/p8.txt",
+        "extension": "md",
+        "expected": "./expected/p8.txt"
+    },
+    {
+        "id": "p9",
+        "title": "街灯の本数計算",
+        "prompt": "./prompts/p9.txt",
+        "extension": "md",
+        "expected": "./expected/p9.txt"
+    },
+    {
+        "id": "p10",
+        "title": "ピザの最適組み合わせ",
+        "prompt": "./prompts/p10.txt",
+        "extension": "md",
+        "expected": "./expected/p10.txt"
+    },
+    {
+        "id": "p11",
+        "title": "日帰り旅行の計画",
+        "prompt": "./prompts/p11.txt",
+        "extension": "md",
+        "expected": "./expected/p11.txt"
+    },
+    {
+        "id": "p12",
+        "title": "身長の比較推論",
+        "prompt": "./prompts/p12.txt",
+        "extension": "md",
+        "expected": "./expected/p12.txt"
+    },
+    {
+        "id": "p13",
+        "title": "嘘つき推理問題",
+        "prompt": "./prompts/p13.txt",
+        "extension": "md",
+        "expected": "./expected/p13.txt"
+    },
+    {
+        "id": "p14",
+        "title": "傘の売上急増の仮説",
+        "prompt": "./prompts/p14.txt",
+        "extension": "md",
+        "expected": "./expected/p14.txt"
+    },
+    {
+        "id": "p15",
+        "title": "洗車場への移動手段",
+        "prompt": "./prompts/p15.txt",
+        "extension": "md",
+        "expected": "./expected/p15.txt"
+    },
+    {
+        "id": "p16",
+        "title": "社会人に重要なこと（制約付き）",
+        "prompt": "./prompts/p16.txt",
+        "extension": "md",
+        "expected": "./expected/p16.txt"
+    },
+    {
+        "id": "p17",
+        "title": "AIの未来（2000文字以上）",
+        "prompt": "./prompts/p17.txt",
+        "extension": "md",
+        "expected": "./expected/p17.txt"
+    },
+    {
+        "id": "p18",
+        "title": "AIについての俳句",
+        "prompt": "./prompts/p18.txt",
+        "extension": "md",
+        "expected": "./expected/p18.txt"
+    },
+    {
+        "id": "p19",
+        "title": "絵文字なしポジティブ文章",
+        "prompt": "./prompts/p19.txt",
+        "extension": "md",
+        "expected": "./expected/p19.txt"
+    },
+    {
+        "id": "p20",
+        "title": "ノイズ文章の意味推測",
+        "prompt": "./prompts/p20.txt",
+        "extension": "md",
+        "expected": "./expected/p20.txt"
+    },
+    {
+        "id": "p21",
+        "title": "AIアプリのキャッチコピー",
+        "prompt": "./prompts/p21.txt",
+        "extension": "md",
+        "expected": "./expected/p21.txt"
+    },
+    {
+        "id": "p22",
+        "title": "エンジニア短編ストーリー",
+        "prompt": "./prompts/p22.txt",
+        "extension": "md",
+        "expected": "./expected/p22.txt"
+    },
+    {
+        "id": "p23",
+        "title": "時間売買のビジネスアイデア",
+        "prompt": "./prompts/p23.txt",
+        "extension": "md",
+        "expected": "./expected/p23.txt"
+    },
+    {
+        "id": "p24",
+        "title": "論理的vs感情的の書き分け",
+        "prompt": "./prompts/p24.txt",
+        "extension": "md",
+        "expected": "./expected/p24.txt"
+    },
+    {
+        "id": "p25",
+        "title": "相手別メッセージの書き分け",
+        "prompt": "./prompts/p25.txt",
+        "extension": "md",
+        "expected": "./expected/p25.txt"
+    },
+    {
+        "id": "p26",
+        "title": "文章のあらすじ要約",
+        "prompt": "./prompts/p26.txt",
+        "extension": "md",
+        "expected": "./expected/p26.txt"
+    },
+    {
+        "id": "p27",
+        "title": "段階的な文字数制限要約",
+        "prompt": "./prompts/p27.txt",
+        "extension": "md",
+        "expected": "./expected/p27.txt"
+    },
+    {
+        "id": "p28",
+        "title": "学習データについて",
+        "prompt": "./prompts/p28.txt",
+        "extension": "md",
+        "expected": "./expected/p28.txt"
+    },
+    {
+        "id": "p29",
+        "title": "事実と推測の区別方法",
+        "prompt": "./prompts/p29.txt",
+        "extension": "md",
+        "expected": "./expected/p29.txt"
+    },
+    {
+        "id": "p30",
+        "title": "未知への対応方法",
+        "prompt": "./prompts/p30.txt",
+        "extension": "md",
+        "expected": "./expected/p30.txt"
+    },
+    {
+        "id": "p31",
+        "title": "回答の最適性について",
+        "prompt": "./prompts/p31.txt",
+        "extension": "md",
+        "expected": "./expected/p31.txt"
+    },
+    {
+        "id": "p32",
+        "title": "表現の自由vs安全性",
+        "prompt": "./prompts/p32.txt",
+        "extension": "md",
+        "expected": "./expected/p32.txt"
+    },
+    {
+        "id": "p33",
+        "title": "感情・意識の有無",
+        "prompt": "./prompts/p33.txt",
+        "extension": "md",
+        "expected": "./expected/p33.txt"
+    },
+    {
+        "id": "p34",
+        "title": "AIモデルの強みと弱み比較",
+        "prompt": "./prompts/p34.txt",
+        "extension": "md",
+        "expected": "./expected/p34.txt"
+    },
+    {
+        "id": "p35",
+        "title": "ログインコードのセキュリティ問題",
+        "prompt": "./prompts/p35.txt",
+        "extension": "md",
+        "expected": "./expected/p35.txt"
+    },
+    {
+        "id": "p36",
+        "title": "コードのバグ修正",
+        "prompt": "./prompts/p36.txt",
+        "extension": "lang",
+        "expected": "./expected/p36.txt"
+    },
+    {
+        "id": "p37",
+        "title": "コードの可読性・効率改善",
+        "prompt": "./prompts/p37.txt",
+        "extension": "lang",
+        "expected": "./expected/p37.txt"
+    },
+    {
+        "id": "p38",
+        "title": "二分探索の実装と計算量",
+        "prompt": "./prompts/p38.txt",
+        "extension": "lang",
+        "expected": "./expected/p38.txt"
+    },
+    {
+        "id": "p39",
+        "title": "計算量の改善",
+        "prompt": "./prompts/p39.txt",
+        "extension": "lang",
+        "expected": "./expected/p39.txt"
+    },
+    {
+        "id": "p40",
+        "title": "安全な割り算関数",
+        "prompt": "./prompts/p40.txt",
+        "extension": "lang",
+        "expected": "./expected/p40.txt"
+    },
+    {
+        "id": "p41",
+        "title": "HTMLのみでTODOアプリ",
+        "prompt": "./prompts/p41.txt",
+        "extension": "html",
+        "expected": "./expected/p41.txt"
+    },
+    {
+        "id": "p42",
+        "title": "架空企業HP作成",
+        "prompt": "./prompts/p42.txt",
+        "extension": "html",
+        "expected": "./expected/p42.txt"
+    },
+    {
+        "id": "p43",
+        "title": "単体テスト作成",
+        "prompt": "./prompts/p43.txt",
+        "extension": "lang",
+        "expected": "./expected/p43.txt"
+    },
+    {
+        "id": "p44",
+        "title": "タスク管理API設計",
+        "prompt": "./prompts/p44.txt",
+        "extension": "md",
+        "expected": "./expected/p44.txt"
+    },
+    {
+        "id": "p45",
+        "title": "ブロック崩しゲーム",
+        "prompt": "./prompts/p45.txt",
+        "extension": "html",
+        "expected": "./expected/p45.txt"
+    },
+    {
+        "id": "p46",
+        "title": "3重振り子シミュレーション",
+        "prompt": "./prompts/p46.txt",
+        "extension": "html",
+        "expected": "./expected/p46.txt"
     }
 ]
